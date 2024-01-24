@@ -18,27 +18,6 @@ Install the AWS Replication Agent on the source server.
 
 ![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rUMbP6uP3umF229gDBEGzkI9mSqUdhAl09TxpNkXU_RZRI4nGepTfJ4_qpsoKXNFAhoESi-CX9ylJXHNFtJCHY19-epT-mpoFDMNzAGu3IhaG8Tt3_F4y6-xgf_2HhB25mvrQH8s_bx4MlaE5C3lElNXrmc1gUOBbTkge03obm3s0mEcA3ghMl_f8Pg/w441-h200/Screenshot%20(92).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rUMbP6uP3umF229gDBEGzkI9mSqUdhAl09TxpNkXU_RZRI4nGepTfJ4_qpsoKXNFAhoESi-CX9ylJXHNFtJCHY19-epT-mpoFDMNzAGu3IhaG8Tt3_F4y6-xgf_2HhB25mvrQH8s_bx4MlaE5C3lElNXrmc1gUOBbTkge03obm3s0mEcA3ghMl_f8Pg/w441-h200/Screenshot%20(92).png)
 
-# Cloud-Migration
-
-Cloud migration is the process of moving data, applications, or other business elements from an organization's onsite computers to the cloud, or moving them from one cloud environment to another. Cloud migration essentially involves moving data and applications from on-premises data centers to a cloud-based infrastructure.
-
-The process can offer numerous benefits including increased efficiency, cost savings, greater flexibility, and enhanced data security. It also can help organizations avoid the need for physical hardware and related expenses. However, cloud migration requires careful planning, execution, and testing to ensure data loss prevention and minimal disruption to business operations.
-
-There are various strategies for cloud migration, each with its own benefits and use cases. These include lift-and-shift, replatforming, and refactoring. The ideal approach depends on the business's specific needs and goals.
-
-Ultimately, a successful cloud migration requires a well-thought-out strategy that considers the business's unique needs and an execution plan that minimizes downtime and ensures a smooth transition.
-
-Step 1: Create the AWS Replication Agent.
-
-![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhK6pLH0oFKASpfrcj6rkPs30r_osSluElA2TcGmKN1I6jxoeEdkvFqp1NPbbZ05uobuQhSxpQX1Wx44VLwqd1R67wbEJHjDID8KKVl4oDDxE7mwIuoVLWG1rshslt1oP3uFMUAF7AGNFPkWQgOiGl94UJleWe6JkYcLY2wMQoN1Z7GhlqyJL902mNsDo/w398-h149/Screenshot%20(90).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhK6pLH0oFKASpfrcj6rkPs30r_osSluElA2TcGmKN1I6jxoeEdkvFqp1NPbbZ05uobuQhSxpQX1Wx44VLwqd1R67wbEJHjDID8KKVl4oDDxE7mwIuoVLWG1rshslt1oP3uFMUAF7AGNFPkWQgOiGl94UJleWe6JkYcLY2wMQoN1Z7GhlqyJL902mNsDo/w398-h149/Screenshot%20(90).png)
-
-Note: Create a user and give the access key and secret key.
-
-![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-mYFqH60BhMULoqzA8tZO_I3ACq03Tqa8SlAbGiwM-vPsZLD8yXILcgU0PaKBsvIjVnyWpLn3Y-AlRqwcnoXIsLCBvsdIDDkAMByhkjpkpDVqiJDj1Ywh2EMO6cZXKM6NKxO2DcIszp9pDHKj8Kpit3f8EN9qF8EHMtOe6yy94vrxEiWJNKGRqQMItQs/w405-h141/Screenshot%20(91).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-mYFqH60BhMULoqzA8tZO_I3ACq03Tqa8SlAbGiwM-vPsZLD8yXILcgU0PaKBsvIjVnyWpLn3Y-AlRqwcnoXIsLCBvsdIDDkAMByhkjpkpDVqiJDj1Ywh2EMO6cZXKM6NKxO2DcIszp9pDHKj8Kpit3f8EN9qF8EHMtOe6yy94vrxEiWJNKGRqQMItQs/w405-h141/Screenshot%20(91).png)
-
-Install the AWS Replication Agent on the source server.
-![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rUMbP6uP3umF229gDBEGzkI9mSqUdhAl09TxpNkXU_RZRI4nGepTfJ4_qpsoKXNFAhoESi-CX9ylJXHNFtJCHY19-epT-mpoFDMNzAGu3IhaG8Tt3_F4y6-xgf_2HhB25mvrQH8s_bx4MlaE5C3lElNXrmc1gUOBbTkge03obm3s0mEcA3ghMl_f8Pg/w441-h200/Screenshot%20(92).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rUMbP6uP3umF229gDBEGzkI9mSqUdhAl09TxpNkXU_RZRI4nGepTfJ4_qpsoKXNFAhoESi-CX9ylJXHNFtJCHY19-epT-mpoFDMNzAGu3IhaG8Tt3_F4y6-xgf_2HhB25mvrQH8s_bx4MlaE5C3lElNXrmc1gUOBbTkge03obm3s0mEcA3ghMl_f8Pg/w441-h200/Screenshot%20(92).png)
-
 Step 2: Wait until the initial sync is finished.----- It will take 1 hour after discovering an instance in AWS.
 
 ![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0YCCfLSJTcjF0rhwRL3i7rRHBJ5ScmNI466WOTOd80CzLOyzs3pZQaKS0U83cjuWwhAPYJgX8BvTuxqIke5XfxxFWQMQkvS2FIiKDMBG93aZQVcoOs-ghCB6seDJBwmwYt6ob-S_KmlopuN_kTPedYr02Wbdo4uHNO1r-ZecUkEyp14wyqhetK23YSgs/w445-h172/Screenshot%20(95).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0YCCfLSJTcjF0rhwRL3i7rRHBJ5ScmNI466WOTOd80CzLOyzs3pZQaKS0U83cjuWwhAPYJgX8BvTuxqIke5XfxxFWQMQkvS2FIiKDMBG93aZQVcoOs-ghCB6seDJBwmwYt6ob-S_KmlopuN_kTPedYr02Wbdo4uHNO1r-ZecUkEyp14wyqhetK23YSgs/w445-h172/Screenshot%20(95).png)
