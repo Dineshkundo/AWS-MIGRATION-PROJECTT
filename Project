@@ -1,0 +1,70 @@
+Cloud migration is the process of moving data, applications, or other business elements from an organization's onsite computers to the cloud, or moving them from one cloud environment to another. Cloud migration essentially involves moving data and applications from on-premises data centers to a cloud-based infrastructure.
+
+The process can offer numerous benefits including increased efficiency, cost savings, greater flexibility, and enhanced data security. It also can help organizations avoid the need for physical hardware and related expenses. However, cloud migration requires careful planning, execution, and testing to ensure data loss prevention and minimal disruption to business operations.
+
+There are various strategies for cloud migration, each with its own benefits and use cases. These include lift-and-shift, replatforming, and refactoring. The ideal approach depends on the business's specific needs and goals.
+
+Ultimately, a successful cloud migration requires a well-thought-out strategy that considers the business's unique needs and an execution plan that minimizes downtime and ensures a smooth transition.
+
+Step 1: Create the AWS Replication Agent.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhK6pLH0oFKASpfrcj6rkPs30r_osSluElA2TcGmKN1I6jxoeEdkvFqp1NPbbZ05uobuQhSxpQX1Wx44VLwqd1R67wbEJHjDID8KKVl4oDDxE7mwIuoVLWG1rshslt1oP3uFMUAF7AGNFPkWQgOiGl94UJleWe6JkYcLY2wMQoN1Z7GhlqyJL902mNsDo/w398-h149/Screenshot%20(90).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhK6pLH0oFKASpfrcj6rkPs30r_osSluElA2TcGmKN1I6jxoeEdkvFqp1NPbbZ05uobuQhSxpQX1Wx44VLwqd1R67wbEJHjDID8KKVl4oDDxE7mwIuoVLWG1rshslt1oP3uFMUAF7AGNFPkWQgOiGl94UJleWe6JkYcLY2wMQoN1Z7GhlqyJL902mNsDo/w398-h149/Screenshot%20(90).png)
+
+Note: Create a user and give the access key and secret key.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-mYFqH60BhMULoqzA8tZO_I3ACq03Tqa8SlAbGiwM-vPsZLD8yXILcgU0PaKBsvIjVnyWpLn3Y-AlRqwcnoXIsLCBvsdIDDkAMByhkjpkpDVqiJDj1Ywh2EMO6cZXKM6NKxO2DcIszp9pDHKj8Kpit3f8EN9qF8EHMtOe6yy94vrxEiWJNKGRqQMItQs/w405-h141/Screenshot%20(91).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-mYFqH60BhMULoqzA8tZO_I3ACq03Tqa8SlAbGiwM-vPsZLD8yXILcgU0PaKBsvIjVnyWpLn3Y-AlRqwcnoXIsLCBvsdIDDkAMByhkjpkpDVqiJDj1Ywh2EMO6cZXKM6NKxO2DcIszp9pDHKj8Kpit3f8EN9qF8EHMtOe6yy94vrxEiWJNKGRqQMItQs/w405-h141/Screenshot%20(91).png)
+
+Install the AWS Replication Agent on the source server.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rUMbP6uP3umF229gDBEGzkI9mSqUdhAl09TxpNkXU_RZRI4nGepTfJ4_qpsoKXNFAhoESi-CX9ylJXHNFtJCHY19-epT-mpoFDMNzAGu3IhaG8Tt3_F4y6-xgf_2HhB25mvrQH8s_bx4MlaE5C3lElNXrmc1gUOBbTkge03obm3s0mEcA3ghMl_f8Pg/w441-h200/Screenshot%20(92).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rUMbP6uP3umF229gDBEGzkI9mSqUdhAl09TxpNkXU_RZRI4nGepTfJ4_qpsoKXNFAhoESi-CX9ylJXHNFtJCHY19-epT-mpoFDMNzAGu3IhaG8Tt3_F4y6-xgf_2HhB25mvrQH8s_bx4MlaE5C3lElNXrmc1gUOBbTkge03obm3s0mEcA3ghMl_f8Pg/w441-h200/Screenshot%20(92).png)
+
+# Cloud-Migration
+
+Cloud migration is the process of moving data, applications, or other business elements from an organization's onsite computers to the cloud, or moving them from one cloud environment to another. Cloud migration essentially involves moving data and applications from on-premises data centers to a cloud-based infrastructure.
+
+The process can offer numerous benefits including increased efficiency, cost savings, greater flexibility, and enhanced data security. It also can help organizations avoid the need for physical hardware and related expenses. However, cloud migration requires careful planning, execution, and testing to ensure data loss prevention and minimal disruption to business operations.
+
+There are various strategies for cloud migration, each with its own benefits and use cases. These include lift-and-shift, replatforming, and refactoring. The ideal approach depends on the business's specific needs and goals.
+
+Ultimately, a successful cloud migration requires a well-thought-out strategy that considers the business's unique needs and an execution plan that minimizes downtime and ensures a smooth transition.
+
+Step 1: Create the AWS Replication Agent.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhK6pLH0oFKASpfrcj6rkPs30r_osSluElA2TcGmKN1I6jxoeEdkvFqp1NPbbZ05uobuQhSxpQX1Wx44VLwqd1R67wbEJHjDID8KKVl4oDDxE7mwIuoVLWG1rshslt1oP3uFMUAF7AGNFPkWQgOiGl94UJleWe6JkYcLY2wMQoN1Z7GhlqyJL902mNsDo/w398-h149/Screenshot%20(90).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhK6pLH0oFKASpfrcj6rkPs30r_osSluElA2TcGmKN1I6jxoeEdkvFqp1NPbbZ05uobuQhSxpQX1Wx44VLwqd1R67wbEJHjDID8KKVl4oDDxE7mwIuoVLWG1rshslt1oP3uFMUAF7AGNFPkWQgOiGl94UJleWe6JkYcLY2wMQoN1Z7GhlqyJL902mNsDo/w398-h149/Screenshot%20(90).png)
+
+Note: Create a user and give the access key and secret key.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-mYFqH60BhMULoqzA8tZO_I3ACq03Tqa8SlAbGiwM-vPsZLD8yXILcgU0PaKBsvIjVnyWpLn3Y-AlRqwcnoXIsLCBvsdIDDkAMByhkjpkpDVqiJDj1Ywh2EMO6cZXKM6NKxO2DcIszp9pDHKj8Kpit3f8EN9qF8EHMtOe6yy94vrxEiWJNKGRqQMItQs/w405-h141/Screenshot%20(91).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-mYFqH60BhMULoqzA8tZO_I3ACq03Tqa8SlAbGiwM-vPsZLD8yXILcgU0PaKBsvIjVnyWpLn3Y-AlRqwcnoXIsLCBvsdIDDkAMByhkjpkpDVqiJDj1Ywh2EMO6cZXKM6NKxO2DcIszp9pDHKj8Kpit3f8EN9qF8EHMtOe6yy94vrxEiWJNKGRqQMItQs/w405-h141/Screenshot%20(91).png)
+
+Install the AWS Replication Agent on the source server.
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rUMbP6uP3umF229gDBEGzkI9mSqUdhAl09TxpNkXU_RZRI4nGepTfJ4_qpsoKXNFAhoESi-CX9ylJXHNFtJCHY19-epT-mpoFDMNzAGu3IhaG8Tt3_F4y6-xgf_2HhB25mvrQH8s_bx4MlaE5C3lElNXrmc1gUOBbTkge03obm3s0mEcA3ghMl_f8Pg/w441-h200/Screenshot%20(92).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rUMbP6uP3umF229gDBEGzkI9mSqUdhAl09TxpNkXU_RZRI4nGepTfJ4_qpsoKXNFAhoESi-CX9ylJXHNFtJCHY19-epT-mpoFDMNzAGu3IhaG8Tt3_F4y6-xgf_2HhB25mvrQH8s_bx4MlaE5C3lElNXrmc1gUOBbTkge03obm3s0mEcA3ghMl_f8Pg/w441-h200/Screenshot%20(92).png)
+
+Step 2: Wait until the initial sync is finished.----- It will take 1 hour after discovering an instance in AWS.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0YCCfLSJTcjF0rhwRL3i7rRHBJ5ScmNI466WOTOd80CzLOyzs3pZQaKS0U83cjuWwhAPYJgX8BvTuxqIke5XfxxFWQMQkvS2FIiKDMBG93aZQVcoOs-ghCB6seDJBwmwYt6ob-S_KmlopuN_kTPedYr02Wbdo4uHNO1r-ZecUkEyp14wyqhetK23YSgs/w445-h172/Screenshot%20(95).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0YCCfLSJTcjF0rhwRL3i7rRHBJ5ScmNI466WOTOd80CzLOyzs3pZQaKS0U83cjuWwhAPYJgX8BvTuxqIke5XfxxFWQMQkvS2FIiKDMBG93aZQVcoOs-ghCB6seDJBwmwYt6ob-S_KmlopuN_kTPedYr02Wbdo4uHNO1r-ZecUkEyp14wyqhetK23YSgs/w445-h172/Screenshot%20(95).png)
+
+Step 3: Launch test instances.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLY5_E6QrtHcEs476YqNhVFpPIoa_F2L0n8acFvpoWyA__V1UBpK_-g7nlMnRb0XYfpQsjd67BANbXM6IO4FVK3P841D_6aBlJtsajzh-a4Gji9g-KnLWzZMEvzsO78gF3aqvPppH7FY_bwVWqxaiZCkXJ_DfKOtgXbD37IEm7LAmKYfS3A8lLOXaQtrU/w458-h182/Screenshot%20(96).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLY5_E6QrtHcEs476YqNhVFpPIoa_F2L0n8acFvpoWyA__V1UBpK_-g7nlMnRb0XYfpQsjd67BANbXM6IO4FVK3P841D_6aBlJtsajzh-a4Gji9g-KnLWzZMEvzsO78gF3aqvPppH7FY_bwVWqxaiZCkXJ_DfKOtgXbD37IEm7LAmKYfS3A8lLOXaQtrU/w458-h182/Screenshot%20(96).png)
+
+Step 4: After the successful lunch test we can see that it is ready for cutover
+
+then mark it as ready for cutover.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikDBTeYjWbWtCmg0Pt89gyDZVfYr-uEnpd0oMMX7Qqv-XOeKrEWQ-bnJ5s4X8bl-1vg-94Ybe9EUD1sBYsoph99C0Wf_DlKL1Dw-0rmpEShFmTa0MEgGl_6nwqsWJ5WbjlgWwbpR_HCgu2XIMnOmFrYmcZjP1KOxPvprhPH27uCZPfJUZikWI5BSquDz0/w470-h174/Screenshot%20(100).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikDBTeYjWbWtCmg0Pt89gyDZVfYr-uEnpd0oMMX7Qqv-XOeKrEWQ-bnJ5s4X8bl-1vg-94Ybe9EUD1sBYsoph99C0Wf_DlKL1Dw-0rmpEShFmTa0MEgGl_6nwqsWJ5WbjlgWwbpR_HCgu2XIMnOmFrYmcZjP1KOxPvprhPH27uCZPfJUZikWI5BSquDz0/w470-h174/Screenshot%20(100).png)
+
+Step 5: Wait for the cutover window after that lanch cutover insstance.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0MtREnjVGBvfPFxplRYvN4o0fc8Np1wxZWAJjJye64qWbeBwTHJeIXX-zgGW6r-GiDUGFaOuFBhN4i4gOcveEZoWf3gUa6OQSK7-YGp1sT9HrmLhcLAVtmBw4hd4wTLfi-5jw2SayNaBCrme0xVL84CP8LgLVftsInvBNTXJa_vWb8wOpCbLPyU-SxyE/w476-h200/Screenshot%20(103).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0MtREnjVGBvfPFxplRYvN4o0fc8Np1wxZWAJjJye64qWbeBwTHJeIXX-zgGW6r-GiDUGFaOuFBhN4i4gOcveEZoWf3gUa6OQSK7-YGp1sT9HrmLhcLAVtmBw4hd4wTLfi-5jw2SayNaBCrme0xVL84CP8LgLVftsInvBNTXJa_vWb8wOpCbLPyU-SxyE/w476-h200/Screenshot%20(103).png)
+
+Step 6: Confirm that there is no lag and wait till the cutover is complete.
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN30YoX0sDZCm8JRA5HynrAiruG5HmW5lxYj5HcGXkbMyv5GV4NwcO6WDJr-sfiYxRelTV5PsqUd8la9MQipxFjkz6a7WD7tGGnec7ZaOp7mHJypZPM8Kx7yiH91ppWqi-m_Zoci0Mr3G4MR-kdTh2NVqg9w8aSpj2_c0_9U9ceckntRBWSH-LqOPB_TA/w488-h224/Screenshot%20(104).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN30YoX0sDZCm8JRA5HynrAiruG5HmW5lxYj5HcGXkbMyv5GV4NwcO6WDJr-sfiYxRelTV5PsqUd8la9MQipxFjkz6a7WD7tGGnec7ZaOp7mHJypZPM8Kx7yiH91ppWqi-m_Zoci0Mr3G4MR-kdTh2NVqg9w8aSpj2_c0_9U9ceckntRBWSH-LqOPB_TA/w488-h224/Screenshot%20(104).png)
+
+Note: Stop all operational services on the source server.
+
+Step 8: Confirm that the cutover instance was launched successfully and then finalize the cutover
+
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq1Dduba0nMmejAlrgwMqLGP6vspLECVROT2viDpLjc69zHSJvTrUnquSmYDXzu3b3wQZK-PlVO0Vf6Yyuu3Z_36RWymsRtDQa1xQGoYr3CLrga-XK7ga7eNtwmmPElnHvIgyBgoa1pzpKckkkWiQvkI9AK8kpDp5Omrkh_FJHvZlB5BJaBh6IRmvxd9s/w506-h235/Screenshot%20(108).png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq1Dduba0nMmejAlrgwMqLGP6vspLECVROT2viDpLjc69zHSJvTrUnquSmYDXzu3b3wQZK-PlVO0Vf6Yyuu3Z_36RWymsRtDQa1xQGoYr3CLrga-XK7ga7eNtwmmPElnHvIgyBgoa1pzpKckkkWiQvkI9AK8kpDp5Omrkh_FJHvZlB5BJaBh6IRmvxd9s/w506-h235/Screenshot%20(108).png)
+
+Note: Archive the source.
